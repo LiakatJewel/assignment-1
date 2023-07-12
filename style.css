@@ -1,4 +1,4 @@
-.{
+*{
     margin: 0px;
     padding: 0px;
 }
@@ -14,6 +14,15 @@
     padding: 200px 0px;
     gap: 100px;
 }
+
+.start{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.para{
+    margin-bottom: 30px;
+}
 .btn{
     background-color: indianred;
     border: 0px;
@@ -21,18 +30,27 @@
     padding: 10px 20px;
     border-radius: 5px;
 }
-.start{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px;
-}
 .feature{
     text-align: center;
     margin-top: 50px;
+
 }
 .box{
     height: 450px;
     width: 350px;
     background-color: lightpink;
+    border-radius: 300px 300px 0px 0px;
+}
+.box1{
+    height: 450px;
+    width: 350px;
+    background-color: lightcyan;
+    border-radius: 300px 300px 0px 0px;
+}
+.box2{
+    height: 450px;
+    width: 350px;
+    background-color:lightgoldenrodyellow;
     border-radius: 300px 300px 0px 0px;
 }
 .boxs-outline{
@@ -55,4 +73,38 @@
     display: flex;
     padding: 0px 100px 0px 100px;
     justify-content: space-around;
+}
+/* 2nd background */
+.background1{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 300px 0px 100px;
+    margin-top: 50px;
+}
+.background-main1{
+    text-align: center;
+    margin: 200px;
+    position: relative;
+}
+.start1{
+    font-size: 30px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.para1{
+    margin-bottom: 30px;
+}
+.color{
+    color: #E55473;
+}
+.imgs{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    right: 100px;
+    gap: 300px;
+    padding-left: 100px;
+    padding-top: 100px;
+    
 }
